@@ -1,5 +1,11 @@
 # 🌙 Lunar Cycle Bot
 
+## Author
+Diana Issen
+
+## Group 
+SE - 2514
+
 ## Project Description
 LunarCycle Bot is a Telegram bot that provides users with information about the current moon phase, lunar energy, and weekly moon forecasts.
 
@@ -40,11 +46,16 @@ python main.py
 - user_manager.py — JSON user management
 - keyboards.py — Telegram keyboards
 
-## Author
-Diana Issen
+## Team Member Roles
 
-## Group 
-SE - 2514
+Diana Issen:
+- Developed full Telegram bot system
+- Implemented moon phase calculation module
+- Created lunar advice and activity recommendation system
+- Designed and implemented user data storage (JSON)
+- Built Telegram UI (keyboards and interaction flow)
+- Integrated external libraries (pyTelegramBotAPI, ephem)
+- Wrote documentation and tested the project
 
 ## Screenshots
 
