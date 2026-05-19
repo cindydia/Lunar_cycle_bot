@@ -44,25 +44,25 @@ class LunarAdvisor(BaseAdvisor):
         phase = moon.get_phase_name()
 
         if "New Moon" in phase:
-            return "🌑 Journaling, planning"
+            return "🌑 New Moon: \n\n• Waiting\n• Journaling\n• Meditating\n• Reading\n• Listening"
 
         elif "Waxing Crescent" in phase:
-            return "🌒 Learning, habits"
+            return "🌒 Waxing: \n\n• Setting intentions\n• Reaching out\n• Taking risks\n• Experimenting"
 
         elif "First Quarter" in phase:
-            return "🌓 Work, tasks"
+            return "🌓 First Quarter: \n\n• Making decisions\n• Organizing\n• Making a to-do list"
 
         elif "Waxing Gibbous" in phase:
-            return "🌔 Improving, practice"
+            return "🌔 Waxing Gibbous: \n\n• Working out\n• Editing\n• Preparing party snacks\n• Refining a pitch"
 
         elif "Full Moon" in phase:
-            return "🌕 Creativity, social"
+            return "🌕 Full Moon: \n\n• Presenting\n• Partying\n• Expressing yourself"
 
         elif "Waning Gibbous" in phase:
-            return "🌖 Reflection"
+            return "🌖 Waning Gibbous: \n\n• Networking\n• Socializing\n• Collecting feedback"
 
         elif "Last Quarter" in phase:
-            return "🌗 Organizing"
+            return "🌗 Last Quarter: \n\n• Pivoting\n• Regrouping\n• Reflective journaling"
 
         else:
-            return "🌘 Rest"
+            return "🌘 Waning Crescent: \n\n• Cleaning\n• Resting\n• Leaving\n• Quitting"

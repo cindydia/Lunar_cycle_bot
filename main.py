@@ -23,7 +23,7 @@ def start(message):
 
     bot.send_message(
         message.chat.id,
-        "🌙 Welcome to LunarCycle Bot!\n\n"
+        "🌙 Welcome to Lunar Cycle Bot!\n\n"
         "Discover moon phases, lunar energy, and weekly forecasts.",
         reply_markup=main_menu()
     )
@@ -35,7 +35,8 @@ def help_command(message):
     help_text = (
         "🌙 LunarCycle Bot Commands\n\n"
         "/start — Start the bot\n"
-        "/help — Show help menu\n\n"
+        "/help — Show help menu\n"
+        "/stats — Show a number of users\n\n"
         "Available features:\n"
         "🌕 Current Moon Phase\n"
         "✨ Lunar Advice\n"
@@ -80,6 +81,14 @@ def lunar_advice(message):
 
     bot.send_message(message.chat.id, advice)
 
+@bot.message_handler(func=lambda message: message.text == "🌱 Best Activities")
+def best_activities(message):
+
+    advisor = LunarAdvisor()
+    activities = advisor.get_best_activities()
+
+    bot.send_message(message.chat.id, activities)
+
 
 @bot.message_handler(func=lambda message: message.text == "🔮 Energy Reading")
 def energy_reading(message):
@@ -97,14 +106,6 @@ def weekly_forecast(message):
 
     bot.send_message(message.chat.id, forecast)
 
-
-@bot.message_handler(func=lambda message: message.text == "🌱 Best Activities")
-def best_activities(message):
-
-    advisor = LunarAdvisor()
-    activities = advisor.get_best_activities()
-
-    bot.send_message(message.chat.id, activities)
 
 
 print("🌙 LunarCycle Bot is running...")

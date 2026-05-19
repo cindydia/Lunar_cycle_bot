@@ -7,8 +7,8 @@ def main_menu():
 
     keyboard.row(types.KeyboardButton("🌕 Current Moon Phase"))
     keyboard.row(types.KeyboardButton("✨ Lunar Advice"))
+    keyboard.row(types.KeyboardButton("🌱 Best Activities"))
     keyboard.row(types.KeyboardButton("🔮 Energy Reading"))
     keyboard.row(types.KeyboardButton("📅 Weekly Forecast"))
-    keyboard.row(types.KeyboardButton("🌱 Best Activities"))
 
     return keyboard
