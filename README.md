@@ -45,3 +45,20 @@ Diana Issen
 
 ## Group 
 SE - 2514
+
+## Screenshots
+
+### Start
+![start](screenshots/start.png)
+
+### Menu
+![menu](screenshots/menu.png)
+
+### Moon Phase
+![phase](screenshots/1.png)
+
+### Advice
+![advice](screenshots/2.png)
+
+### Forecast
+![forecast](screenshots/3.png)
