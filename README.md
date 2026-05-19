@@ -49,16 +49,16 @@ SE - 2514
 ## Screenshots
 
 ### Start
-![start](screenshots/start.png)
+![start](screenshots/start.jpg)
 
 ### Menu
-![menu](screenshots/menu.png)
+![menu](screenshots/menu.jpg)
 
 ### Moon Phase
-![phase](screenshots/1.png)
+![phase](screenshots/1.jpg)
 
 ### Advice
-![advice](screenshots/2.png)
+![advice](screenshots/2.jpg)
 
 ### Forecast
-![forecast](screenshots/3.png)
+![forecast](screenshots/3.jpg)
